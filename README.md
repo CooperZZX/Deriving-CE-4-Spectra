@@ -12,8 +12,10 @@ Referrance:
 
 # Sub Function:
 extr_SD2BL_par.m extracts the parameters of SWIR channel 
+
 extr_VD2BL_par.m extracts the parameters of Visible channel 
 
 # Additional Data
 CE4_VNIS_par.mat contains the instrument parameters of CE-4 VNIS
+
 Sun_Moon_Distance.xlsx contains the distance between the Sun and the Moon. The data is downloaded from https://ssd.jpl.nasa.gov/horizons/app.html#/
