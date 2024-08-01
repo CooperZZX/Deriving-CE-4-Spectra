@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:sp="http://pds.nasa.gov/pds4/sp/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1,https://starbase.jpl.nasa.gov/pds4/1500/dph_example_products/xml_schema/PDS4_PDS_1500.xsd,http://pds.nasa.gov/pds4/sp/v1 PDS4_SP_1001.xsd">
+	<Identification_Area>
+		<logical_identifier>CE4_GRAS_VNIS-VD_SCI_N_20200716031001_20200716100000_0136_B.2B</logical_identifier>
+		<version_id>2.0</version_id>
+		<title>Chang'E 4(CE-4) mission</title>
+		<information_model_version>1.5.0.0</information_model_version>
+		<product_class>Product_Observational</product_class>
+		<Modification_History>
+			<Modification_Detail>
+				<modification_date>2019-07-09</modification_date>
+				<version_id>2.0</version_id>
+				<description>The ground radiometric calibration coefficients matrix are updated by the in-flight radiometric calibration coefficients matrix which are derived from the calibration target data onboard VNIS.</description>
+			</Modification_Detail>
+			<Modification_Detail>
+				<modification_date>2019-01-03</modification_date>
+				<version_id>1.0</version_id>
+				<description>The radiance data of 1.0 version are derived from the ground radiometric calibartion coefficients matrix.</description>
+			</Modification_Detail>
+		</Modification_History>
+	</Identification_Area>
+	<Reference_List>None</Reference_List>
+	<Observation_Area>
+		<Time_Coordinates>
+			<start_date_time>2020-07-16T08:23:34.932Z</start_date_time>
+			<stop_date_time>2020-07-16T08:24:54.734Z</stop_date_time>
+		</Time_Coordinates>
+		<Primary_Result_Summary>
+			<purpose>Science</purpose>
+			<processing_level>Calibrated</processing_level>
+			<Science_Facets>
+				<wavelength_range>Visible and NearInfrared</wavelength_range>
+				<domain>Surface</domain>
+			</Science_Facets>
+		</Primary_Result_Summary>
+		<Investigation_Area>
+			<name>CE4</name>
+			<type>Mission</type>
+		</Investigation_Area>
+		<Observing_System>
+			<name>Observing System for CE4Ro</name>
+			<Observing_System_Component>
+				<name>CE4Ro</name>
+				<type>Spacecraft</type>
+				<description />
+			</Observing_System_Component>
+		</Observing_System>
+		<Target_Identification>
+			<name>Lunar</name>
+			<type>Satellite</type>
+		</Target_Identification>
+		<Mission_Area>
+			<product_id>CE4_GRAS_VNIS-VD_SCI_N_20200716031001_20200716100000_0136_B.2B</product_id>
+			<product_version>B</product_version>
+			<product_level>2B</product_level>
+			<instrument_name>Visible and Near-infrared Imaging Spectrometer</instrument_name>
+			<instrument_id>VNIS</instrument_id>
+			<sequence_id>0136</sequence_id>
+			<Instrument_Parm>
+				<bands unit="nm">450-945</bands>
+				<focal_length unit="mm">43</focal_length>
+				<pixel_size unit="micrometer">25</pixel_size>
+				<principle_point_coordinate>
+					<x unit="pixel">128</x>
+					<y unit="pixel">128</y>
+				</principle_point_coordinate>
+			</Instrument_Parm>
+			<Rover_Location>
+				<reference_frame>MOON_COORDINATE_SYSTEM</reference_frame>
+				<longitude unit="deg">177.585540</longitude>
+				<latitude unit="deg">-45.440387</latitude>
+			</Rover_Location>
+			<Lander_Location>
+				<reference_frame>MOON_COORDINATE_SYSTEM</reference_frame>
+				<longitude unit="deg">177.599100</longitude>
+				<latitude unit="deg">-45.444600</latitude>
+			</Lander_Location>
+			<Rover_LocationXYZ>
+				<reference_frame>LANDER_COORDINATE_SYSTEM</reference_frame>
+				<x unit="m">-287.522263</x>
+				<y unit="m">127.291501</y>
+				<z unit="m">-1.736713</z>
+			</Rover_LocationXYZ>
+			<Center_Point_LocationXYZ>
+				<reference_frame>LANDER_COORDINATE_SYSTEM</reference_frame>
+				<x unit="m">-288.473883</x>
+				<y unit="m">128.210328</y>
+				<z unit="m">-2.036923</z>
+			</Center_Point_LocationXYZ>
+			<Vector_Cartesian_3_Pointing>
+				<reference_frame>ROVER_COORDINATE_SYSTEM</reference_frame>
+				<up_left_point_observe_vector>
+					<x>-0.671992</x>
+					<y>0.365976</y>
+					<z>-0.643808</z>
+				</up_left_point_observe_vector>
+				<down_left_point_observe_vector>
+					<x>-0.586718</x>
+					<y>0.307714</y>
+					<z>-0.749049</z>
+				</down_left_point_observe_vector>
+				<up_right_point_observe_vector>
+					<x>-0.589085</x>
+					<y>0.487911</y>
+					<z>-0.644144</z>
+				</up_right_point_observe_vector>
+				<down_right_point_observe_vector>
+					<x>-0.503819</x>
+					<y>0.429646</y>
+					<z>-0.749380</z>
+				</down_right_point_observe_vector>
+				<center_point_observe_vector>
+					<x>-0.591455</x>
+					<y>0.399867</y>
+					<z>-0.700205</z>
+				</center_point_observe_vector>
+			</Vector_Cartesian_3_Pointing>
+			<Angle_Pointing_Results>
+				<center_point>
+					<incidence_angle unit="deg">45.556560</incidence_angle>
+					<azimuth_angle unit="deg">124.061609</azimuth_angle>
+					<phase_angle unit="deg">54.504512</phase_angle>
+				</center_point>
+				<up_left_point>
+					<incidence_angle unit="deg">49.923701</incidence_angle>
+					<azimuth_angle unit="deg">118.573356</azimuth_angle>
+					<phase_angle unit="deg">50.623720</phase_angle>
+				</up_left_point>
+				<down_left_point>
+					<incidence_angle unit="deg">41.491994</incidence_angle>
+					<azimuth_angle unit="deg">117.675507</azimuth_angle>
+					<phase_angle unit="deg">50.205918</phase_angle>
+				</down_left_point>
+				<up_right_point>
+					<incidence_angle unit="deg">49.898518</incidence_angle>
+					<azimuth_angle unit="deg">129.633354</azimuth_angle>
+					<phase_angle unit="deg">59.037957</phase_angle>
+				</up_right_point>
+				<down_right_point>
+					<incidence_angle unit="deg">41.463295</incidence_angle>
+					<azimuth_angle unit="deg">130.456869</azimuth_angle>
+					<phase_angle unit="deg">58.661391</phase_angle>
+				</down_right_point>
+				<solar>
+					<incidence_angle unit="deg">64.411669</incidence_angle>
+					<azimuth_angle unit="deg">59.660656</azimuth_angle>
+				</solar>
+			</Angle_Pointing_Results>
+		</Mission_Area>
+	</Observation_Area>
+	<File_Area_Observational>
+		<File>
+			<file_name>CE4_GRAS_VNIS-VD_SCI_N_20200716031001_20200716100000_0136_B.2B</file_name>
+			<local_identifier>None</local_identifier>
+			<creation_date_time>2020-09-02T02:37:00.000Z</creation_date_time>
+			<file_size unit="byte">26214400</file_size>
+			<records>100</records>
+		</File>
+		<Array_3D_Image>
+			<offset unit="byte">0</offset>
+			<axes>3</axes>
+			<axis_index_order>Last Index Fastest</axis_index_order>
+			<Element_Array>
+				<data_type>IEEE754LSBSingle</data_type>
+				<unit>data number</unit>
+			</Element_Array>
+			<Axis_Array>
+				<axis_name>Band</axis_name>
+				<elements>100</elements>
+				<sequence_number>1</sequence_number>
+			</Axis_Array>
+			<Axis_Array>
+				<axis_name>Line</axis_name>
+				<elements>256</elements>
+				<sequence_number>2</sequence_number>
+			</Axis_Array>
+			<Axis_Array>
+				<axis_name>Sample</axis_name>
+				<elements>256</elements>
+				<sequence_number>3</sequence_number>
+			</Axis_Array>
+		</Array_3D_Image>
+	</File_Area_Observational>
+	<File_Area_Observational>
+		<File>
+			<file_name>CE4_GRAS_VNIS-VD_AUX_N_20200716031001_20200716100000_0136_B.2B</file_name>
+			<local_identifier>None</local_identifier>
+			<creation_date_time>2020-09-02T02:37:00.000Z</creation_date_time>
+			<file_size unit="byte">4400</file_size>
+			<records>100</records>
+		</File>
+		<Table_Character>
+			<offset unit="byte">0</offset>
+			<records>100</records>
+			<record_delimiter>Carriage-Return Line-Feed</record_delimiter>
+			<Record_Character>
+				<fields>5</fields>
+				<groups>0</groups>
+				<record_length>43</record_length>
+				<Field_Character>
+					<name>Time</name>
+					<field_number>1</field_number>
+					<field_location unit="byte">1</field_location>
+					<data_type>ASCII_Time</data_type>
+					<field_length unit="byte">24</field_length>
+					<field_format>A24</field_format>
+					<unit>YYYY-MM-DDThh:mm:ss.msZ</unit>
+					<description>时间码</description>
+				</Field_Character>
+				<Field_Character>
+					<name>Data_Identifier</name>
+					<field_number>2</field_number>
+					<field_location unit="byte">26</field_location>
+					<data_type>ASCII_String</data_type>
+					<field_length unit="byte">2</field_length>
+					<field_format>I2</field_format>
+					<description>光谱标识</description>
+				</Field_Character>
+				<Field_Character>
+					<name>Visible_Bands_Integration_Time</name>
+					<field_number>3</field_number>
+					<field_location unit="byte">29</field_location>
+					<data_type>ASCII_Real</data_type>
+					<field_length unit="byte">5</field_length>
+					<field_format>F5.1</field_format>
+					<unit>ms</unit>
+					<description>VNIR积分时间</description>
+				</Field_Character>
+				<Field_Character>
+					<name>Solar_Elevation_Angle</name>
+					<field_number>4</field_number>
+					<field_location unit="byte">35</field_location>
+					<data_type>ASCII_String</data_type>
+					<field_length unit="byte">4</field_length>
+					<field_format>A4</field_format>
+					<description>月面太阳高度角</description>
+				</Field_Character>
+				<Field_Character>
+					<name>Quality_Code</name>
+					<field_number>5</field_number>
+					<field_location unit="byte">40</field_location>
+					<data_type>ASCII_String</data_type>
+					<field_length unit="byte">4</field_length>
+					<field_format>A4</field_format>
+					<description>质量信息</description>
+				</Field_Character>
+			</Record_Character>
+		</Table_Character>
+	</File_Area_Observational>
+</Product_Observational>
